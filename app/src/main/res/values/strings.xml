@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpojiPar</string>
+    <string name="Naslov">Spoji parove</string>
+    <string name="Pocetak">Klikni za pocetak</string>
+    <string name="NajRezultat">Najbolji rezultat:</string>
+    <string name="Klikovi">Klikovi</string>
+    <string name="Vrijeme">Vrijeme</string>
+    <string name="kartica">kartica</string>
+    <string name="Nastavi">NASTAVI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

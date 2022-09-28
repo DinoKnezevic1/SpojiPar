@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameArea">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#211E1E">
+
+        <ImageButton
+            android:id="@+id/kartica12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="34dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kartica11"
+            app:layout_constraintTop_toBottomOf="@+id/kartica7"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/Klikovi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/revalia"
+            android:text="@string/Klikovi"
+            android:textColor="#FF005D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/clicks"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/kartica4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kartica1"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kartica4"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kartica7"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica12"
+            app:layout_constraintStart_toEndOf="@+id/kartica10"
+            app:layout_constraintTop_toBottomOf="@+id/kartica7"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica9"
+            app:layout_constraintStart_toEndOf="@+id/kartica7"
+            app:layout_constraintTop_toBottomOf="@+id/kartica4"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="35dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kartica8"
+            app:layout_constraintTop_toBottomOf="@+id/kartica4"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica6"
+            app:layout_constraintStart_toEndOf="@+id/kartica4"
+            app:layout_constraintTop_toBottomOf="@+id/kartica1"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/kartica6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="35dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kartica5"
+            app:layout_constraintTop_toBottomOf="@+id/kartica1"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/timeplayed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="205dp"
+            android:fontFamily="@font/revalia"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Vrijeme"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/clicks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="87dp"
+            android:layout_marginEnd="72dp"
+            android:fontFamily="@font/revalia"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Klikovi"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/kartica1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Vrijeme" />
+
+        <ImageButton
+            android:id="@+id/kartica2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="84dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toStartOf="@+id/kartica3"
+            app:layout_constraintStart_toEndOf="@+id/kartica1"
+            app:layout_constraintTop_toBottomOf="@+id/Vrijeme" />
+
+        <ImageButton
+            android:id="@+id/kartica3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/kartica"
+            android:scaleType="centerInside"
+            android:src="@drawable/poledina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kartica2"
+            app:layout_constraintTop_toBottomOf="@+id/Vrijeme" />
+
+        <TextView
+            android:id="@+id/Vrijeme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/revalia"
+            android:text="@string/Vrijeme"
+            android:textColor="#FF005D"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/timeplayed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/nastavi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:background="#24E912"
+            android:fontFamily="@font/revalia"
+            android:text="@string/Nastavi"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kartica11"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
